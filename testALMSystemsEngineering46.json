@@ -1,0 +1,21 @@
+{
+  "sessionState": {
+    "intent": {
+      "name": "ALMSystemsEngineeringIntent",
+      "slots": {
+        "coding_skills": {
+          "shape": "Scalar",
+          "value": {
+            "interpretedValue": "4"
+          }
+        },
+        "writing_skills": {
+          "shape": "Scalar",
+          "value": {
+            "interpretedValue": "6"
+          }
+        }
+      }
+    }
+  }
+}

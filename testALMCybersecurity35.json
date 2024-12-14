@@ -1,0 +1,21 @@
+{
+  "sessionState": {
+    "intent": {
+      "name": "ALMCybersecurityIntent",
+      "slots": {
+        "coding_skills": {
+          "shape": "Scalar",
+          "value": {
+            "interpretedValue": "3"
+          }
+        },
+        "writing_skills": {
+          "shape": "Scalar",
+          "value": {
+            "interpretedValue": "5"
+          }
+        }
+      }
+    }
+  }
+}
