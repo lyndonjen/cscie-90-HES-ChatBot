@@ -12,7 +12,7 @@ def lambda_handler(event, context):
     s3 = boto3.client('s3')
     
     # S3 bucket and object key
-    bucket_name = 'hescourses'  # 'arn:aws:s3:::hescoursespublic'
+    bucket_name = 'hescourses'
     object_key = 'HES_Courses.json'
 
     try:
@@ -29,7 +29,7 @@ def lambda_handler(event, context):
         elif ('systems' in intent_name_lower) and ('engineering' in intent_name_lower):
             degree_name = "ALM Systems Engineering"
         else:
-            msgText = "Sorry, we only have info for ALM Cybersecurity."
+            msgText = "Sorry, I only have info for ALM Cybersecurity or ALM Systems Engineering."
             return {
                 "sessionState": {
                     "dialogAction": {
